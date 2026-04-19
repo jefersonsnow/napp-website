@@ -34,7 +34,7 @@ export default function Home() {
             <Link href="#produtos" className="hover:text-white transition-colors">Produtos</Link>
             <Link href="#servicos" className="hover:text-white transition-colors">Especialidades</Link>
           </div>
-          <a href="mailto:contato@napp.pt" className="px-5 py-2.5 rounded-full bg-white text-black font-semibold text-sm hover:scale-105 transition-transform">
+          <a href="https://wa.me/351910664744" target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 rounded-full bg-white text-black font-semibold text-sm hover:scale-105 transition-transform">
             Fale Connosco
           </a>
         </div>
@@ -114,10 +114,7 @@ export default function Home() {
               
               <div className="relative">
                  <div className="aspect-[4/3] rounded-2xl bg-black border border-white/10 overflow-hidden shadow-2xl relative">
-                    {/* Placeholder for AgendarPro Dashboard Image */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-violet-900/40 to-black flex items-center justify-center">
-                       <span className="font-bold text-white/20 text-2xl tracking-widest uppercase">Dashboard Preview</span>
-                    </div>
+                    <img src="/dashboard-preview.png" alt="AgendarPro Dashboard" className="absolute inset-0 w-full h-full object-cover object-left-top" />
                  </div>
               </div>
             </div>
@@ -162,7 +159,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-8">Pronto para criar o próximo grande produto?</h2>
           <p className="text-xl text-white/60 mb-12">Deixe a engenharia connosco. Focamos-nos no código para que você se foque no negócio.</p>
-          <a href="mailto:contato@napp.pt" className="inline-flex h-16 px-10 rounded-full bg-white text-black font-black items-center justify-center gap-2 hover:scale-105 transition-transform text-lg shadow-[0_0_30px_rgba(255,255,255,0.2)]">
+          <a href="https://wa.me/351910664744?text=Olá,%20gostaria%20de%20falar%20com%20a%20equipa%20nApp!" target="_blank" rel="noopener noreferrer" className="inline-flex h-16 px-10 rounded-full bg-white text-black font-black items-center justify-center gap-2 hover:scale-105 transition-transform text-lg shadow-[0_0_30px_rgba(255,255,255,0.2)]">
             Falar com a Equipa <ArrowRight className="h-5 w-5" />
           </a>
         </div>
