@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Code2, Rocket, Shield, Smartphone, Zap, MonitorPlay } from "lucide-react";
+import { ArrowRight, Code2, Rocket, Shield, Smartphone, Zap, MonitorPlay, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
