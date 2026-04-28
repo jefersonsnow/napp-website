@@ -23,12 +23,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 glass border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center font-bold text-lg shadow-[0_0_15px_rgba(139,92,246,0.5)]">
-              n
-            </div>
-            <span className="font-bold text-xl tracking-tight">nApp.pt</span>
-          </div>
+          <Link href="/" className="flex items-center gap-2">
+            <img 
+              src="/logo.png" 
+              alt="nApp.pt" 
+              className="h-16 w-auto drop-shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:scale-105 transition-transform duration-300" 
+            />
+          </Link>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
             <Link href="#sobre" className="hover:text-white transition-colors">A Agência</Link>
             <Link href="#produtos" className="hover:text-white transition-colors">Produtos</Link>
@@ -91,8 +92,8 @@ export default function Home() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="h-12 w-12 rounded-xl bg-violet-600 flex items-center justify-center mb-6 shadow-lg shadow-violet-500/20">
-                  <MonitorPlay className="h-6 w-6 text-white" />
+                <div className="h-14 w-14 rounded-2xl bg-white/5 flex items-center justify-center mb-6 shadow-xl shadow-violet-500/10 border border-white/10 hover:scale-110 transition-transform duration-300">
+                  <img src="/agendarpro-icon.png" alt="AgendarPro" className="h-10 w-10 rounded-xl object-contain drop-shadow-[0_0_10px_rgba(139,92,246,0.3)]" />
                 </div>
                 <h3 className="text-3xl font-black mb-4">AgendarPro</h3>
                 <p className="text-white/70 text-lg mb-8 leading-relaxed">
